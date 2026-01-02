@@ -1,0 +1,19 @@
+{
+  "name": "@ecp.eth/rivet",
+  "version": "1.0.0",
+  "description": "Rivet is a Foundry version manager that ensures the correct Foundry version is installed",
+  "main": "rivet.sh",
+  "bin": {
+    "rivet": "./rivet.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecp-eth/rivet.git"
+  },
+  "author": "ecp.eth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecp-eth/rivet/issues"
+  },
+  "homepage": "https://github.com/ecp-eth/rivet#readme"
+}

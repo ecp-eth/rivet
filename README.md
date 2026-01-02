@@ -2,9 +2,7 @@
 
 Rivet is a Foundry version manager that ensures the correct Foundry version is installed and used based on a `.foundry-version` file in your project root.
 
-**Homebrew installed foundry is not supported**
-
-Foundry installed via homebrew does not support version pinning, please uninstall it before using rivet.
+**Homebrew installed foundry is not supported**: Foundry installed via homebrew does not support version pinning, please uninstall it before using rivet.
 
 ## What it does:
 

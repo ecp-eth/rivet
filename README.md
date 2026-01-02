@@ -13,12 +13,15 @@ Rivet is a Foundry version manager that ensures the correct Foundry version is i
 
 ## Usage
 
-Install Rivet as dev dependency in your project, then prefix the foundry commands with `rivet`:
+Install `@ecp.eth/rivet` as dev dependency in your project, then prefix the foundry commands with `rivet`:
 
 ```json
 {
   "scripts": {
     "build": "rivet forge build --sizes --skip test"
+  },
+  "devDependencies": {
+    "@ecp.eth/rivet": "*"
   }
 }
 ```
